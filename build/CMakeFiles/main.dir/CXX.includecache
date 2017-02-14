@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orion/Documents/code/cs2/Complex/Complex.cpp
+iostream
+-
+sstream
+-
+Complex.hpp
+/home/orion/Documents/code/cs2/Complex/Complex.hpp
+
+/home/orion/Documents/code/cs2/Complex/Complex.hpp
+string
+-
+
+/home/orion/Documents/code/cs2/Complex/complex_main.cpp
+iostream
+-
+string
+-
+Complex.hpp
+/home/orion/Documents/code/cs2/Complex/Complex.hpp
+
