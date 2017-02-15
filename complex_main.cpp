@@ -1,10 +1,7 @@
 /*
-   COPYRIGHT (C) 2017 Student Name (UANET ID ) All rights reserved.
-   CSII assignment 1
-   Author.  Student Name
-            zippy@zips.uakron.edu
-   Version. 1.01 09.09.2017
-   Purpose: This program is the test cases for the assignment
+   Orion Davis 3003072 ord4@zips.uakron.edu
+   The University of Akron, Computer Science II, Prof. Will
+   ASSGN4-Complex Number 
 */
 
 #include <iostream>
@@ -46,4 +43,3 @@ int main()
      }
 
 }
-
