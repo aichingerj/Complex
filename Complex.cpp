@@ -40,17 +40,17 @@ Complex Complex::operator*(const Complex &right) const
 }
 
 bool Complex::operator==(const Complex& myNum) const{
-	
+
 }
 
 std::istream& operator>>(std::istream& input, Complex& a) {
-	input >> a;
+	input >> a.realPart, a.imaginaryPart;
 
 	return input;
 }
 
 std::ostream& operator<<(std::ostream& output, const Complex& a) {
-	output << a;
+	output << a.realPart, a.imaginaryPart;
 
 	return output;
 }
