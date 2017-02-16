@@ -40,7 +40,10 @@ Complex Complex::operator*(const Complex &right) const
 }
 
 bool Complex::operator==(const Complex& myNum) const{
-
+	if((myNum.realPart != realPart) || (myNum.imaginaryPart != imaginaryPart)){
+		return false;
+	}
+	return true;
 }
 
 std::istream& operator>>(std::istream& input, Complex& a) {
